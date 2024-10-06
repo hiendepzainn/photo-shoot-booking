@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.header .options {
+  display: flex;
+  gap: 25px;
+  margin-right: 10px;
+}
+
+.header .options a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#image-logo {
+  height: 45px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 65px);
+  background-image: url("https://img.freepik.com/free-vector/gradient-blur-pink-blue-abstract-background_53876-117324.jpg");
+}
+
+.content .button {
+  height: fit-content;
+  font-size: 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #060603;
+  color: white;
+  padding: 3px 10px;
+  transition: transform 0.3s, backgorund-color 0.5s;
+}
+
+.content .button:hover {
+  background-color: #ff6b81;
+  transform: scale(1.05);
+}
+
+.content .text {
+  font-weight: bold;
+  font-size: 65px;
+  text-align: center;
+}
