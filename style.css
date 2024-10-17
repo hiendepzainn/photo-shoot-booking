@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+
 body {
   font-family: Arial, sans-serif;
 }
@@ -62,4 +64,30 @@ body {
   font-weight: bold;
   font-size: 65px;
   text-align: center;
+}
+
+.buttonZalo {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  background-color: #028fe4;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: transform 0.3s, background-color 0.5s;
+  cursor: pointer;
+}
+
+.buttonZalo:hover {
+  background-color: #027dca;
+  transform: scale(1.05);
 }
